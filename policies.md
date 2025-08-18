@@ -24,7 +24,8 @@ There are two different sections of this course, taught by the same instructor, 
 Prof. Becker's office hours:
 - TBD
 
-The TA does not have office hours but will be in the Thursday lab to answer questions.
+Tyler Jensen's office hours:
+- TBD
 
 ## Course Information
 See the separate [syllabus document](syllabus.md).
@@ -53,8 +54,10 @@ Other good ideas are at the [CSCI-3656 class](https://github.com/cu-numcomp/numc
 ## Syllabus
 See the separate [syllabus document](syllabus.md).
 
-## Recitations
+## Recitations/Labs
 Thursdays, led by the TA.
+
+For each lab, you must attend in person (we will take attendance if this becomes an issue), and then turn in the required documents to Canvas by midnight on the day of the lab. This counts for 15% of your grade.  Scoring per lab is done on a pass/fail basis.  We will automatically give all students one "free" lab that you do not need to turn in -- you do not need to tell us which lab, we automatically remove one of your lowest scores.
 
 ## Exams
 - There will be **two midterms**
@@ -113,9 +116,16 @@ Students are allowed to:
 
 - use "autocomplete" style coding assistance, like Copilot.  (*Why? because this is now as ubiquitious as spell-check, and it has become part of how people program.*) However, we strongly suggest you to use it sparingly, and to double-check!
 
+- use LLMs to ask for documentation, but not with an AI that has access to your code. For example, you can google documentation and use the "AI generated summaries" provided by Google, but you cannot use Github copilot integrated with VS Code, or gemini integraded with colab (nor any context-aware chatbot).
+
+- we **discourage** AI use whenever possible -- you don't need practice with it (it's easy!), and college is the time to practice your non-AI skills
+
+- Tools like wolfram Alpha, Desmos, etc., are allowed unless explicitly disallowed for a particular problem, but we discourage their use. They will **not** be allowed on the midterms, so please do not get reliant on them.
+
 Students are **not allowed** to:
 
-- explicitly asking a LLM, like ChatGPT/Claude..., to do anything for you. This covers both code and math.
+- explicitly asking a LLM, like ChatGPT/Claude..., to do **solve** anything for you. This covers both code and math.
+  - For example, putting in the text of a homework problem and asking a LLM to generate the solution (or code) is not allowed.
 
 #### Enforcement
 For any major assignment (homework, or take-home exam if relevant), the instructor reserves the right to randomly check students, and/or check students with suspicious work.  If a student is checked, they will need to do a live session with the instructor (either live-coding if it is coding related, or a whiteboard session if it is math related) so that the instructor can ask the student questions or give them tasks.
