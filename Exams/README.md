@@ -1,15 +1,5 @@
 # Exams
 
-- [Midterm1](Midterm1.pdf) (for topics covered, see this section of the [syllabus](../syllabus.md#midterm-1))
-- [Midterm2](Midterm2.pdf) (for topics covered, see this section of the [syllabus](../syllabus.md#midterm-2))
-- [Final (sample, with instructions)](FinalExam.pdf) (for topics covered, see this section of the [syllabus](../syllabus.md#final-1))
-    - [Final exam, Thursday](FinalExam.Thurs.pdf) for section 002
-    - [Final exam, Saturday](FinalExam.Sat.pdf) for section 001
-
-The midterms were take-home exams but still timed; they had an open and closed note/book portion.
-
-The final is proctored via zoom, 2.5 hours, open note/book.
-
 See the [StudyMaterials](./StudyMaterials) folder for study guides created for this semester as well as study guides from previous fall semesters
 
 Solutions are available only on Canvas
@@ -18,7 +8,8 @@ Solutions are available only on Canvas
 ## Study aids
 The best way to study is doing practice problems.  Below are links to similar classes that have problems sets and/or exams (sometimes with solutions, sometimes without):
 
-
+- CU's APPM 4650 from Fall 2020, taught by Stephen Becker. Midterms and final exams are available in the "StudyMaterials" folder
+  - however, the topics for 4650 and 4600 only align about 75%, so there are some questions on those exams that you do not need to know (not until second semester...), and it also will not test you on some of the optimization and linear algebra questions
 - CU's APPM 4650 from Fall 2013, taught by Chris Ketelsen. Homeworks (no solutions) are available below:
   - [HW 1](https://www.colorado.edu/amath/sites/default/files/attached-files/hmwk1_0.pdf) on floating point numbers, stability of the quadratic equation, the bisection method, and convergence.
   - [HW 2](https://www.colorado.edu/amath/sites/default/files/attached-files/hmwk2_0.pdf) on fixed-point iterations and Newton's method
