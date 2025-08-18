@@ -1,11 +1,10 @@
 # Class-specific policies
 
-Undergraduate numerical analysis, first semester, APPM 4650. University of Colorado Boulder, Fall 2020.
+Undergraduate numerical analysis, first semester, APPM 4600. University of Colorado Boulder, Fall 2025.
 
 ## Details in a nutshell
-This is a flipped class. Students are responsible for watching pre-recorded videos made by the instructor.  During the scheduled class time, ~~students must attend the live zoom session for at least 10 minutes~~ (for at least 90% of the lectures); class time will be used to go over homework answers, run live demos, have students work on small projects/demos, and answer questions.  Two TAs will be on zoom to help assist as well.
+This is an in-person class (MWF) that has a 1-credit lab component on Thursdays.
 
-**Week 4 update** Students no longer need to attend 10 minutes of class; this participation grade is being replaced by the PlayPosit video quizzes.
 
 ## Instructor and contact Information
 
@@ -14,32 +13,29 @@ This is a flipped class. Students are responsible for watching pre-recorded vide
 
 ## Teaching Assistant (TA)
 
-- Daniel Ferguson is the graduate student TA. He is a PhD student in the Applied Math department.  He's a Matlab specialist, but also knows Python.
-- Andy Starr is an undergraduate TA (he will join the afternoon lectures). He is a Mech E and Applied Math major. He's a Matlab specialist, but also knows Python.
-- Nick Elsasser is an undergraduate TA (he will join the morning lectures). He is a CS major.  He's a Python specialist, but also knows Matlab.
+- Tyler Jensen (Applied Math PhD student)
 
 ## Meeting times
-There are two different sections of this course, both online.  We suggest you attend the zoom session of your assigned section, but if necessary, it is OK for you to attend the zoom session for the other section.
-- Morning section, 4650-001: 9:10 to 10:00 AM
-- Afternoon section, 4650-002: 1:50 to 2:40 PM
+There are two different sections of this course, taught by the same instructor, so it doesn't really matter which section you attend as long as there is room.
+- 4600-001: 11:15 AM to 12:05 PM
+- 4600-002: 1:25 PM to 2:15 PM
 
 ## Office Hours
 Prof. Becker's office hours:
-- 7:30 to 8:00 AM Wed (intended for students in different time zones)
-- 2:40 to 3:40 PM Wed
-- 1:00 to 2:00 PM Thurs
-- 4:00 to 4:30 PM Thurs
+- TBD
 
-The TAs do not have office hours, but at least 2 TAs attend every class, and since this is a flipped class, you can ask them questions during the class time, so this functions like office hours.
+The TA does not have office hours but will be in the Thursday lab to answer questions.
 
 ## Course Information
 See the separate [syllabus document](syllabus.md).
 
 ## Estimated Workload
-This is intended to have a normal workload, less than Calculus III (which is 4 credits) but more than an elective class
+This is intended to have a high workload, similar to Calculus III (which is 4 credits) and more than an elective class
 
 ## Prereqs
-MATH 3430 or APPM 2360 (these are ODE and linear algebra courses), and APPM 3310 (matrix methods).  Minimum grades of C-.
+APPM 3310 (matrix methods).  Minimum grades of C-.
+
+We used to require MATH 3430 or APPM 2360 (these are ODE and linear algebra courses), so it's not a bad idea to have these courses...
 
 ## Textbook
 [Burden and Faires' textbook](https://sites.google.com/site/numericalanalysis1burden/) (9th or 10th edition) is our primary book, but homework problems will be written out explicitly, so it is not 100% necessary to purchase the book. This course has used this book in recent years, and it is used by the second semester class.
@@ -58,15 +54,15 @@ Other good ideas are at the [CSCI-3656 class](https://github.com/cu-numcomp/numc
 See the separate [syllabus document](syllabus.md).
 
 ## Recitations
-There are no recitations
+Thursdays, led by the TA.
 
 ## Exams
-- There will be **two midterms**, which might be *take-home* exams
-- There is an **final** exam (done remotely, probably proctored via the Proctorio software -- you will need a laptop with zoom and a chrome browser; we'll do a dry-run first.)
+- There will be **two midterms**
+- There is a **final** exam 
 
 ## Projects
 
-There are no projects
+There are no projects (some semesters we do a final project instead of a final exam)
 
 ## Homeworks
 
@@ -95,36 +91,46 @@ On homeworks, you are free to **collaborate** with other students, and to use re
 Cheating is not usually an issue in this class, and I have faith that students will continue to act appropriately.
 
 ## Grading
-- 10% for participation (~~attend 90% of lectures, for at least 10 minutes~~).  
-  - ~~If you miss a class for a legitimate reason (sickness, important travel), you can be excused.  Doctor's notes are not needed to document illness (traveling to the student health center when only mildly sick can in fact be dangerous, as you spread disease to very sick people).~~
-  - **Update** As of week 4, the participation grade is now determined by filling out the PlayPosit quizzes that are wrapped around some of the posted videos. Access these links via Canvas.  You still only need to fill out 90% of these (the 90% will apply to combined attendance from weeks 1--3 and PlayPosit for the rest of the weeks)
+- 15% for lab/recitation days. 
+  - Each day is pass/fail (you turn it in on time or you don't), but you are allowed one free "droppped" lab
 - 30% Homework.
   - Late homework is not accepted, but you are allowed one free "dropped" homework. Your lowest-scoring homework will be automatically dropped.
 - 30% Midterms (2 midterms, each 15%)
-- 30% Final exam
+- 25% Final exam
 
 The overall grade may be **curved** as appropriate, but note that there is no set "quota" of A's, B's, etc., so you are not directly competing with your classmates.
 
 ## Course website
 
-We will use [github](https://github.com/stephenbeckr/numerical-analysis-class) for public content (notes, demos, syllabus), and use CU's default LMT **Canvas** for private content like grades and homework solutions.  Canvas will also be used to organize things, like the **pre-recorded lectures** (posted as unlisted on Youtube, with links in Canvas), comments made via **gradescope**, and Q&A forums via **piazza**.
+We will use github for public content (notes, demos, syllabus), and use CU's default LMT **Canvas** for private content like grades and homework solutions. 
+- We have some prerecorded videos on **youtube** from a Covid semester; these are unlisted, but we can email you the links if you have to miss class
+- We'll use **gradescope** for grading (this integrates automatically with Canvas)
+- We can use **piazza** for Q&A forums if there is student desire
 
-## Online behavior
-On zoom, please have your webcam on if at all possible
-- Valid reasons for not having the camera on: to protect the privacy of your family or roommate, if you cannot have a virtual background
-- Invalid reason: you don't feel like it, or you didn't wash your hair).
+## AI policy
 
-We have the same standards of behavior as we would in a classroom: appropriate attire, appropriate and not distracting virtual backgrounds, verbal and chat remarks should be respectful, etc.  Real-world backgrounds should be appropriate and professional (please, no drugs or alcohol behind you).
+Students are allowed to:
 
-It's always important to have respectful remarks, and even more so in an online setting, since it is easier to get carried away with chat comments since you cannot see the effect on other people.
+- use "autocomplete" style coding assistance, like Copilot.  (*Why? because this is now as ubiquitious as spell-check, and it has become part of how people program.*) However, we strongly suggest you to use it sparingly, and to double-check!
 
-If we enable private chat on zoom, remember that the zoom host can later see even "private" chats. Inappropriate or inconsiderate remarks, even on private chats, are not allowed.
+Students are **not allowed** to:
+
+- explicitly asking a LLM, like ChatGPT/Claude..., to do anything for you. This covers both code and math.
+
+#### Enforcement
+For any major assignment (homework, or take-home exam if relevant), the instructor reserves the right to randomly check students, and/or check students with suspicious work.  If a student is checked, they will need to do a live session with the instructor (either live-coding if it is coding related, or a whiteboard session if it is math related) so that the instructor can ask the student questions or give them tasks.
+
+#### Consequences of violating policy
+
+- First-time minor violations of the AI policy will result in losing points on the specific problem; the amount of points lost is up to instructor discretion, depending on the severity of the infraction
+
+- Major violations, or repeat violations, will result in a 0 on the entire relevant assignment
+
+- Egregious and/or repeated major violations will result in failing the class
 
 
 ## Dropping the Course
-Advice from your department advisor is recommended before dropping any course. After 11:59 PM Sept. 9, dropping a course results in a "W" on your transcript and you’ll be billed for tuition. After 11:59 PM Oct. 30, dropping the course is possible only with a petition approved by the Dean’s office.
-
-Note that due to COVID-19, these requirements or dates may change.
+Advice from your department advisor is recommended before dropping any course. After 11:59 PM Sept. 5 2025, dropping a course results in a "W" on your transcript and you’ll be billed for tuition. 
 
 # Generic policies
 
