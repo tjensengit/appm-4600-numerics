@@ -25,7 +25,8 @@ Prof. Becker's office hours:
 - TBD
 
 Tyler Jensen's office hours:
-- TBD
+- Starting August 28th: Thursdays 1:10 - 3:00 PM.
+- Starting September 5th: Fridays 10:00 - 11:00 AM.
 
 ## Course Information
 See the separate [syllabus document](syllabus.md).
