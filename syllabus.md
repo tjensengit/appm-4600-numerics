@@ -70,6 +70,7 @@ Roughly, chapters 1--6 of [Burden and Faires' textbook](https://sites.google.com
    - Review of calculus; round-off errors and computer arithmetic; algorithms and convergence
 2. Solutions of Equations in One Variable
    - Bisection method; Fixed-point interation; Newton's method; Error analysis; Accelerating convergence; zeros of Polynomials and Muller's method
+   - We now also cover some of multivariate equations (see ch 10)
 - Optimization
    - Not in our textbook, but we teach this as a follow-up to chapter 2
 3. Interpolation and Polynomial Approximation
