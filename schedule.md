@@ -105,7 +105,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - [Intro to Interpolation](Notes/Ch3_IntroInterpolation.pdf) and [Lagrange interpolation](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf), from ch 3.1
 - Wed, Oct 8 
   - In-class review
-  - Evening **midterm exam**
+  - Evening **midterm exam**, 6 to 7:30 PM, ECCS 1B12
 - Thu, Oct 9 (no lab, reading day)
 - Fri, Oct 10 
   - "Barycentric Interpolation formula" [same notes as before](Notes/Ch3_LagrangeAndBarycentricInterpolation.pdf) from Driscoll and Braun;
@@ -164,7 +164,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - We'll skip Romberg if we're short on time
 - Wed, Nov 5 
   - In-class review
-  - Evening **midterm exam**
+  - Evening **midterm exam**, 6 to 7:30 PM, ECCS 1B12
 - Thu, Nov 6, Lab 11
   - TBD, maybe on adaptive integration
 - Fri, Nov 7 
