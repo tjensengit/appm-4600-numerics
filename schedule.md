@@ -19,7 +19,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Fri, Aug 22 
   - [Calc Review](Notes/Ch1_CalcReview.pdf) and [Floating Point Numbers](Notes/Ch1_FloatingPoint.pdf). 
   - Refs: ch 1.1 and 1.2 and other sources. 
-  - Demos: [sCh1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb)  
+  - Demos: [Ch1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb)  
 
 #### Week 2, Chapter 1 (floating pt numbers, scientific computing)
 
