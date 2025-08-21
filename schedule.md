@@ -19,6 +19,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thurs, Aug 21, [Lab 1](Labs/Lab01_IntroPython.ipynb)
   - Setup Python locally and on cloud
 - Fri, Aug 22 
+  - Debrief from lab
   - [Calc Review](Notes/Ch1_CalcReview.pdf) and [Floating Point Numbers](Notes/Ch1_FloatingPoint.pdf). 
   - Refs: ch 1.1 and 1.2 and other sources. 
   - Demos: [Ch1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb)  
@@ -36,6 +37,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thurs, Aug 28, Lab 2
   - Scientific workflow, git, debugging...
 - Fri, Aug 29
+  - Debrief from lab
   - TBD, ch 1 stuff
 
 #### Week 3, Chapter 2 (1D root-finding)
@@ -61,6 +63,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Sep 11, Lab 4
   - TBD, probably root-finding
 - Fri, Sep 12 
+  - Debrief from lab
   - [Newton's Method](Notes/Ch2_NewtonsMethod.pdf), from ch 2.3
   - Demo: [Ch2_FixedPointPlots.ipynb](Demos/Ch2_FixedPointPlots.ipynb)  which uses a nice [geogebra online cobweb plotting app](https://www.geogebra.org/m/uvsfvNDt)
 
@@ -75,6 +78,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Sep 18, Lab 5
   - TBD, probably root-finding, and/or exploring convergence rates
 - Fri, Sep 19 
+  - Debrief from lab
   - TBD
 #### Week 6, Chapter 10 (nonlinear systems of equations)
 - Mon, Sep 22 
@@ -84,6 +88,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Sep 25, Lab 6
   - TBD, probably multivariate systems of equations
 - Fri, Sep 26 
+  - Debrief from lab
   - Ch 10.2
 #### Week 7, Chapter 10 (nonlinear systems of equations)
 - Mon, Sep 29 
@@ -93,6 +98,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Oct 2, Lab 7
   - TBD, probably optimization, local vs global minimizers, or compare 0th vs 1st vs 2nd order methods
 - Fri, Oct 3 
+  - Debrief from lab
   - Ch 10.4, Steepest-descent (aka Gradient-descent)
 #### Week 8, Chapter 3 (interpolation)
 - Mon, Oct 6 
@@ -121,6 +127,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Oct 16, Lab 8
   - TBD, probably interpolation
 - Fri, Oct 17 
+  - Debrief from lab
   - TBD (more interpolation)
 #### Week 10, Chapter 8 (approximation theory)
 - Mon, Oct 20 
@@ -130,6 +137,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Oct 23, Lab 9
   - TBD, probably splines, or something with [chebfun](https://www.chebfun.org/)
 - Fri, Oct 24 
+  - Debrief from lab
   - 10.4, Rational function approximation
   - [The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen
 #### Week 11, Chapter 4 (numerical integration)
@@ -143,6 +151,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Oct 30, Lab 10
   - TBD, perhaps simple quadrature (using numpy's builtin tools), compared to symbolic (sympy/mathematica), compared to [chebfun](https://www.chebfun.org/) which has the aim to "feel symbolic but run at the speed of numerics"
 - Fri, Oct 31 
+  - Debrief from lab
   - [Composite quadrature](Notes/Ch4_quadrature_composite.pdf) from ch 4.4
   - Demo: [Ch4_CompositeIntegration.ipynb](Demos/Ch4_CompositeIntegration.ipynb)
   - Note: we are *not* covering Gregory's method; if you're interested, see (CU professor) Bengt Fornberg's talk [Gregory formulas and improving on the Trapezoidal rule](https://www.colorado.edu/amath/sites/default/files/attached-files/2019_unm_0.pdf)
@@ -159,6 +168,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Nov 6, Lab 11
   - TBD, maybe on adaptive integration
 - Fri, Nov 7 
+  - Debrief from lab
   - [Adaptive integration](Notes/Ch4_AdaptiveIntegration.pdf) from ch 4.6
     -  Demo: [Ch4_AdaptiveIntegration.ipynb](Demos/Ch4_AdaptiveIntegration.ipynb)
 #### Week 13, Chapter 6 (direct methods for linear algebra)
@@ -183,6 +193,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Nov 13, Lab 12
   - TBD
 - Fri, Nov 14 
+  - Debrief from lab
   - [LU factorization](Notes/Ch6_LUfactorization.pdf)
 #### Week 14, Chapter 9 (Eigenvalues)
 - Mon, Nov 17 
@@ -197,6 +208,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Nov 20, Lab 13
   - TBD
 - Fri, Nov 21 
+  - Debrief from lab
   - Ch 9.5, QR iteration for eigenvalues
 #### Thanksgiving break, no class
 
@@ -208,6 +220,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Thu, Dec 4, Lab 14
   - TBD
 - Fri, Dec 5 
+  - Debrief from lab
   - TBD / makeup / review session
 
 #### Final exams
