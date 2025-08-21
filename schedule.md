@@ -2,6 +2,8 @@
 
 Fall 2025, Instructor: Stephen Becker (Applied Math dept)
 
+See also the [syllabus](syllabus.md) for a high-level description
+
 # High-level list of topics
 Here's the tentative plan for Fall 2025. Note that we may change things slightly, so see the "Detailed list" below for what w actually cover.
 

@@ -3,4 +3,4 @@ Undergraduate numerical analysis, first semester, APPM 4600. University of Color
 
 The corresponding videos are on Canvas
 
-For which notes we did on what day, see the [syllabus](../schedule.md#detailed-list-of-topics)
+For which notes we did on what day, see the [schedule](../schedule.md#detailed-list-of-topics)

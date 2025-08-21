@@ -2,6 +2,8 @@
 
 Fall 2025, Instructor: Stephen Becker (Applied Math dept)
 
+See also [policies](policies.md) and [day-by-day schedule](schedule.md)
+
 ### Official course description
 Provides an introduction to numerical analysis and scientific computing. Numerical analysis topics include root finding, interpolation, quadrature, linear system solution techniques, and techniques for approximating eigenvalues. Scientific computing topics include code development and repository management in addition to an introduction to shared and distributed memory computing. Involves hands-on learning with weekly group interactions and a final project including a report and in-class presentation. Recommended prerequisite: knowledge of a programming language such as Python, and C++.				
 
@@ -12,8 +14,7 @@ For both semesters 4600 and 4610, we'll use a lot of math from your previous cou
 - lots of calculus, including: Taylor's theorem, fundamental theorem of calculus, IVT, EVT, MVT, sequences and series, limits, continuity, Riemann sums, L'Hopital's rule
 - Facts about polynomial roots (fundamental theorem of algebra); complex numbers
 - Vector spaces, subspaces, bases
-- Solving ODEs; ODE theory
-- Solving linear equations, vector operations (dot products), matrix multiplication
+- Solving linear equations, vector operations (dot products), matrix multiplication; eigenvalues
 
 ### Related courses at CU
 This course is similar to the CS department's [CSCI-3656 Numerical Computation](https://github.com/cu-numcomp/numcomp-class/) but has a bit more analysis (and more math prerequisites), fewer implementation details, and similar but not identical topics.
@@ -23,7 +24,7 @@ This course was forked from the APPM/MATH 4650 (and second semester 4660) about 
 ### Programming
 Homeworks will involve by mathematical analysis and programming.
 
-Students are expected to already know how to program.  We encourage using Python; Julia is another good choice though we will not be using it explicitly.  For homework assignments, usually the deliverable is the outcome of some code, so therefore the student may choose any reasonable programming language. However, we will be doing demonstrations in Python (and the instructor/TA are best at debugging Python and Matlab).  Most of our demonstrations will be using [github](http://github.com) in conjunction with [python via colab](https://colab.research.google.com/).  Homework solutionsn are usually posted in Python, though we may have legacy Matlab versions to share upon request.
+Students are expected to already know how to program.  We encourage using Python; Julia is another good choice though we will not be using it explicitly.  For homework assignments, usually the deliverable is the outcome of some code, so therefore the student may choose **any** reasonable programming language. However, we will be doing demonstrations in Python (and the instructor/TA are best at debugging Python and Matlab).  Most of our demonstrations will be using [github](http://github.com) in conjunction with [python via colab](https://colab.research.google.com/).  Homework solutions are usually posted in Python, though we may have legacy Matlab versions to share upon request.  The **labs** are all in Python.
 
 ### Principal Topics
 
@@ -41,7 +42,7 @@ Students are expected to already know how to program.  We encourage using Python
 - Eigenvalue problems
   - Iterative methods (taught at instructor's discretion)
 
-In the change from 4650 to 4600, we now teach numerical differentiation and numerical methods for IVP and BVP in the second semester class
+In the change from 4650 to 4600, we now save numerical differentiation and numerical methods for IVP and BVP in the second semester class
 
 ### Learning Goals/Outcomes
 [//]: # ( Not testable; high-level )
@@ -51,39 +52,42 @@ In the change from 4650 to 4600, we now teach numerical differentiation and nume
 - Know which mathematical problems are efficiently solvable on a computer
 - Understand how polynomials are used in numerical algorithms
 - Know how calculus concepts (differentiation, integration, ODEs) can be tackled in a computational setting
-- Understand the advantages/disadvantages of the many existing schemes for solving initial value problems for ODEs.
+- Understand the basics of block computation, LAPACK, and parallel computing
 
 ### Learning Objectives (i.e., quantifiable outcomes)
 [//]: # ( Something measurable )
 - Determine when a problem is ill-conditioned and when an algorithm is unstable; understand the difference between symbolic and numeric computation, and floating-point and fixed-point arithmetic
-- Identify the main categories of numerical problems
+- Gain familiariaty with the standard categories of numerical problems
 - Know basic methods, and their tradeoffs, for solving 1-dimensional nonlinear equations and multi-dimensional linear equations
+- Have some understanding of methods, and complications, for solving multi-dimensional nonlinear equations and multivariate optimization problems; understand the difference between stationary points and optima
 - Understand how polynomials are used for quadrature rules, and the ideas of composite rules and non-equispaced nodes.
-- Derive methods for numerically solving initial value problems for ODEs
-- Analyzing an ODE method for stability and convergence
 
 
 # High-level list of topics
-Roughly, chapters 1--6 of [Burden and Faires' textbook](https://sites.google.com/site/numericalanalysis1burden/) (9th or 10th edition); the second-semester continuation of this course (4660) roughly covers chapters 7--12. The following is taken from the table of contents of the textbook:
+Roughly, chapters 1-6 (skipping ch 5) with bits of ch 8, 9, and 10 of [Burden and Faires' textbook](https://sites.google.com/site/numericalanalysis1burden/) (9th or 10th edition); the second-semester continuation of this course (4660) roughly covers chapters 5, 11 and 12 (ODE IVP, ODE BVP and PDE). The following is taken from the table of contents of the textbook:
 
-1. Math preliminaries and error analysis
+- [Ch 1] Math preliminaries and error analysis
    - Review of calculus; round-off errors and computer arithmetic; algorithms and convergence
-2. Solutions of Equations in One Variable
+- [Ch 2] Solutions of Equations in One Variable
    - Bisection method; Fixed-point interation; Newton's method; Error analysis; Accelerating convergence; zeros of Polynomials and Muller's method
    - We now also cover some of multivariate equations (see ch 10)
-- Optimization
-   - Not in our textbook, but we teach this as a follow-up to chapter 2
-3. Interpolation and Polynomial Approximation
+- [Ch 10] Systems of nonlinear equations, and optimization
+   - Newton's method, steepest descent (aka gradient descent)
+- [Ch 3] Interpolation and Polynomial Approximation
    - Interpolation and the Lagrange Polynomial; Data approximation and Neville's method; Divided Differences; Hermite Interpolation; Cubic Spline Interpolation; Parametric Curves
-4. Numerical Differentiation and integration
-   - Numerical differentiation; Richardson's Extrapolation; Numerical Integration; Composite Numerical Integration; Romberg Integration; Adaptive Quadrature; Gaussian Quadrature; Multiple and Improper Integrals
-6. Direct Methods for Solving Linear Systems
+- [Ch 8] Approximation theory
+   - Orthogonal polynomials; l2 and L2 approximations; rational function approximation; trigonometric polynomial approximation
+- [Ch 4] Numerical integration
+   - Numerical Integration; Composite Numerical Integration; Romberg Integration; Adaptive Quadrature; Gaussian Quadrature; Multiple and Improper Integrals
+- [Ch 6] Direct Methods for Solving Linear Systems
    - Linear systems of equations; pivoting strategies; linear algebra and matrix inversion; the determinant; matrix factorization; special types of matrices
+- [Ch 9] Eigenvalues
+   - QR algorithm and power method
 
 and we may teach extra topics (at the instructor's discretion) such as
 - automatic differentiation
 - approximation theory (i.e., some of ch 8)
-- iterative linear algebra techniques (i.e.., some of ch 7 and 9)
+- iterative linear algebra techniques (i.e.., some of ch 7 on CG, and 9)
 
 For reference, the chapters which are *not* covered extensively in this first semester course are:
 
@@ -91,8 +95,9 @@ For reference, the chapters which are *not* covered extensively in this first se
    - Theory for IVP; Euler's Method; Higher-order Taylor Methods; Runge-Kutta; Error control and the Runge-Kutta-Fehlberg Method; Multistep methods; Variable step-size multistep methods; Extrapolation Methods; Higher-order Equations and Systems of ODE; Stability; Stiff equations
 7. Iterative Techniques in Matrix Algebra (Jacobi, Gauss-Siedel, CG)
 8. Approximation Theory (orthogonal polynomials)
+  - we cover some of this first semester, but not all
 9. Approximating Eigenvalues (power method, Householder, QR, SVD)
-10. Numerical solutions of nonlinear systems of Equations
+  - we cover some of this first semester, but not all; we skip Householder and SVD
 11. Boundary-Value problems for ODEs
 12. Numerical Solutions to Partial Differential Equations
 
