@@ -9,7 +9,7 @@
 
 Note: the links in the PDFs will not work if you view the PDF on github, but if you open the PDF in its own tab, or download it, all the links should work.
 
-**Canvas** For lab submissions to Canvas, we will allow HTML or PDF as submission formats.
+**Canvas**: For lab submissions to Canvas, we will allow HTML or PDF as submission formats.
 
 **Collaboration**: Collaboration with your fellow students is OK and in fact recommended, although direct copying is not allowed.
 
