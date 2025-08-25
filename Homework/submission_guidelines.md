@@ -9,6 +9,8 @@
 
 Note: the links in the PDFs will not work if you view the PDF on github, but if you open the PDF in its own tab, or download it, all the links should work.
 
+**Canvas** For lab submissions to Canvas, we will allow HTML or PDF as submission formats.
+
 **Collaboration**: Collaboration with your fellow students is OK and in fact recommended, although direct copying is not allowed.
 
 **Internet**: The internet is allowed for basic tasks (e.g., looking up definitions on wikipedia, or documentation, or following basic tutorials) but it is
@@ -50,7 +52,16 @@ Note that if you include latex in the jupyter notebook, when you run `nbconvert`
 
 The downside of `nbconvert` is that images are saved as png, not pdf, so fonts don't come through, but that's not a big deal for homework.
 
-If you run jupyter locally, you might be able to run `nbconvert` without using the command line; go to "Download" the "PDF via LaTeX".
+Tips for locally exporting a jupyter notebook to pdf
+
+- You will likely need some sort of a local installation of LaTeX to export to PDF directly.
+  
+- If you run jupyter locally, you might be able to run `nbconvert` without using the command line; go to "Download" the "PDF via LaTeX".
+  
+- A similar method can be down for exporting to HTML, without the need for a local LaTeX installation.
+
+- A workaround for exporting a jupyter notebook to a pdf, is to export it to HTML first, then open the HTML file in a browser and print to pdf. Warning, this can cut off some of the outputs of your code/the code itself, so make sure all of your code and its outputs are included in the pdf. This can be done by either changing the scale when printing to pdf or formatting your code to have line breaks.
+
 
 #### Python source code (not Jupyter), or really any kind of source code
 The *unacceptable* ways are
@@ -60,3 +71,5 @@ The *unacceptable* ways are
 Acceptable: from a code editor, print to a PDF. This retains color syntax highlighting.
 
 Better ways: it depends on your system and editor, but there are many ways. For example, this [stackoverflow 'printing python code to PDF'](https://stackoverflow.com/q/20412038) offers several suggestions. For example, since I already use `vim` and its setup with syntax highlighting, I can do [this answer](https://stackoverflow.com/a/20412421) and do `vim abc.py -c ":hardcopy > abc.ps" -c ":q"` followed by `ps2pdf abc.ps abc.pdf` -- no extra software needed!
+
+Another way is to use the `minted` package with LaTeX. A tutorial on this from overleaf is [here](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted). Make sure that it has proper syntax highlighting and formatting before you submit.
