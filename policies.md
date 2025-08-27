@@ -18,11 +18,12 @@ This is an in-person class (MWF) that has a 1-credit lab component on Thursdays.
 ## Meeting times
 There are two different sections of this course, taught by the same instructor, so it doesn't really matter which section you attend as long as there is room.
 - 4600-001: 11:15 AM to 12:05 PM
-- 4600-002: 1:25 PM to 2:15 PM
+- 4600-002: 1:25 PM to 2:15 PM.  **update**: this is now in ECCR 1B55
 
 ## Office Hours
 Prof. Becker's office hours:
-- TBD
+- Thursdays 2:30 - 3:00 PM.
+- Fridays 2:30 - 4:30 PM.
 
 Tyler Jensen's office hours:
 - Starting August 28th: Thursdays 1:10 - 3:00 PM.
