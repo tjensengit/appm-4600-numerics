@@ -71,7 +71,7 @@ There are no projects (some semesters we do a final project instead of a final e
 
 ## Homeworks
 
-There will be weekly homeworks.  You are allowed to drop 1 homework (this will be done automatically).
+There will be weekly homeworks.  You are allowed to drop all homework (this will be done automatically).
 
 ## Grading
 - 15% for lab/recitation days. 
